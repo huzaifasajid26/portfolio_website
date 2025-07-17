@@ -1,0 +1,84 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1rem;
+}
+
+.nav-link:hover {
+    color: #5E3BEE !important;
+}
+
+.btn {
+    border-color: #5E3BEE !important;
+    background-color: white !important;
+    color: #5E3BEE !important;
+}
+
+.hero_btn {
+    border-color: #5E3BEE !important;
+    background-color: transparent !important;
+    color: #5E3BEE !important;
+    padding: 10px 20px !important;
+}
+
+.btn:hover {
+    background-color: #5E3BEE !important;
+    color: white !important;
+}
+
+.hero-heading {
+    color: #5E3BEE;
+}
+
+
+@media screen and (min-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+}
+
+/* HERO */
+
+section.hero {
+    background-color: #e6fffd;
+}
+
+@media screen and (max-width:576px) {
+    .img-fluid {
+        padding-top: 20px !important;
+    }
+
+    section.hero {
+        text-align: center;
+    }
+
+}
+
+/* PROJECT */
+
+section.projects{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 1px 1px 5px gray;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.Projects {
+    padding-top: 40px;
+}
