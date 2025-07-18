@@ -11,6 +11,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
@@ -65,16 +68,15 @@
 
     <section class="Projects" id="Projects">
         <div class="container">
-            <h2 class="display—5 fw-bold mb-4" style="text-align: center; padding-bottom: 20px; font-size: 40px;">Projects</h2>
+            <h2 class="display—5 fw-bold mb-4" style="text-align: center; padding-top: 150px; font-size: 40px;">
+                Projects</h2>
             <div class="row">
                 <div class="col-lg col-sm-6 mt-4">
                     <div class="card" style="text-align: center;">
                         <img src="./Images/bata.jpg" class="card-img-top" alt="bata">
                         <div class="card-body">
                             <h5 class="card-title">Bata Clone</h5>
-                            <p class="card-text">This responsive Bata website was created as part of my web
-                                development
-                                assignment.</p>
+                            <p class="card-text">This is a responsive clone of the Bata website..</p>
                             <a href="https://github.com/huzaifasajid26/bata_clone_smit" target="_blank"
                                 class="btn btn-primary">Visit
                                 Site</a>
@@ -87,8 +89,7 @@
                         <img src="./Images/perodic-table.jpg" class="card-img-top" alt="periodic_table">
                         <div class="card-body">
                             <h5 class="card-title">Periodic Table</h5>
-                            <p class="card-text">I developed this periodic table for my web development assignment
-                                using.</p>
+                            <p class="card-text">I developed this periodic table for my assignment.</p>
                             <a href="https://github.com/huzaifasajid26/Periodic-Table" target="_blank"
                                 class="btn btn-primary">Visit
                                 Site</a>
@@ -100,9 +101,7 @@
                         <img src="./Images/sayalani_pic.jpg" class="card-img-top" alt="saylani">
                         <div class="card-body">
                             <h5 class="card-title">Saylani Clone</h5>
-                            <p class="card-text">This is a clone of the Saylani Welfare website, created as part of my
-                                web
-                                development assignment.</p>
+                            <p class="card-text">This is a clone of the Saylani Welfare website.</p>
                             <a href="https://github.com/huzaifasajid26/Saylani-Welfare-Website" target="_blank"
                                 class="btn btn-primary">Visit
                                 Site</a>
@@ -114,16 +113,84 @@
     </section>
 
     <section class="About Me" id="About Me">
-        <div class="container">
-            <h5 class="display—5 fw-bold mb-4">About Me</h5>
+        <div class="container about_con text-center my-5">
+            <h2 class="fw-bold mb-4" style="padding-top: 150px;">About Me</h2>
+
+            <img src="Images/hero_pic_huzaifa.png" alt="Huzaifa Sajid" class="rounded-circle mb-3"
+                style="width: 300px; height: 300px; margin: 20px 0; object-fit: cover;">
+
+            <p class="mx-auto" style="max-width: 700px; margin-top: 20px; padding-bottom: 20px;">
+                Hi, I'm Huzaifa Sajid — a passionate web development student currently enrolled at Saylani Mass IT
+                Training Program. So far, I’ve learned HTML, CSS, and Bootstrap, and I’m now diving into JavaScript to
+                enhance my frontend skills. I enjoy building clean and responsive websites, and I’m always eager to
+                explore new technologies and improve my coding abilities with each project I work on.
+            </p>
         </div>
     </section>
 
     <section class="Contact Us" id="Contact Us">
         <div class="container">
-            <h5 class="display—5 fw-bold mb-4">Contact Us</h5>
+            <h5 class="display—5 fw-bold mb-4"
+                style="padding-top: 100px; padding-bottom: 50px; text-align: center; font-size: 40px;">Contact Us</h5>
+            <div class="row">
+                <div class="col-sm-4 mt-4">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="inputfirstname" class="form-label">Firstname</label>
+                            <input type="text" class="form-control" id="inputfirstname" placeholder="Muhammad">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputLastname" class="form-label">Lastname</label>
+                            <input type="text" class="form-control" id="inputlastname" placeholder="Faizan">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="example@gmail.com">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Saylani ZA IT Park">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity" placeholder="Karachi">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="inputmessage" class="form-label">message</label>
+                            <input type="text" class="form-control" id="inputmessage" placeholder="Enter your message"
+                                style="padding: 10px 40px 60px 10px;">
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                <label class="form-check-label" for="gridCheck">
+                                    I accept the terms
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <a href=""></a>
+                </div>
+                <div class="col-sm-4 mt-4" style="display: flex; justify-content: center; align-items: center;">
+                    <div class="social-media">
+                        <a href="https://github.com/huzaifasajid26"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/huzaifa-sajid-315760347/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/huzaifasajid26/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <a href=""></a>
+                </div>
+            </div>
         </div>
     </section>
+
 </body>
 
 </html>
